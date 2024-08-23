@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+/* Tablet */ 
+@media  screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #011526,  #034c8b);
+    }
+    
+    #login {
+        width: 90vw;
+    }
+
+    #imagem {
+        float: left;
+        width: 35%;
+        height: 100%;
+        margin-right: 20px;
+    }
+
+}
+
+@media  screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #011526,  #034c8b);
+    }
+
+    #login {
+        width: 940px;
+    }
+
+    #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+        margin-right: 10px;
+        background-position: left center;
+    }
+}

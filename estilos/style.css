@@ -16,7 +16,7 @@ cor 3: #011526
 }
 
 body, html {
-    background-color: #03318c5a;
+    background-color: #034c8b;
     width: 100vw;
     height: 100vh;
 }
@@ -39,11 +39,14 @@ main {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.421);
+
+    transition: width .2, height .2;
+    transition-timing-function: ease;
 }
 
 #imagem {
     display: block;
-    background: #03318C url(../imagens/pexels-giovanaspiller-16580466.jpg);
+    background: #034c8b url(../imagens/pexels-giovanaspiller-16580466.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
