@@ -20,6 +20,8 @@
 
 }
 
+
+/* Telas grandes */
 @media  screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, #011526,  #034c8b);
@@ -30,10 +32,17 @@
     }
 
     #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
-        margin-right: 10px;
         background-position: left center;
+    }
+
+    #formulario > h1 {
+        font-size: 2em;
+    }
+
+    #formulario > p {
+        font-size: 1.2em;
     }
 }
